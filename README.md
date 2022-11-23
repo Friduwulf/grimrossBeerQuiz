@@ -2,11 +2,11 @@
 
 ## Description
 
-This project was made in order to show a deep understanding of many basic Javascript, HTML, and CSS features. It was also created to become a study tool that can be increased in scope over time by adding more questions and time.
+This app was designed for Grimross Brewing Corp. as a quick quiz that can easily have its questions updated on a regular basis, and gives their staff a fun way of learning some industry and company information.
 
 ## Installation
 
-To access this application, go to : https://friduwulf.github.io/super-fun-coding-quizz/
+To access this application, go to : [https://friduwulf.github.io/super-fun-coding-quizz/](https://friduwulf.github.io/grimrossBeerQuiz/)
 
 ![Screenshot 2022-11-17 232257](https://user-images.githubusercontent.com/34720583/202609601-3c90abd1-3e3f-4f80-a7e8-77bd61710ca5.png)
 
