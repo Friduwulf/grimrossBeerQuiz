@@ -243,7 +243,7 @@ button:hover {
     }
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 450px) {
     .info-bar {
         flex-direction: column;
         justify-content: space-between;
