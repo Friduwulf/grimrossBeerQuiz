@@ -247,6 +247,8 @@ button:hover {
     .info-bar {
         flex-direction: column;
         justify-content: space-between;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
     
     h1{
@@ -265,5 +267,9 @@ button:hover {
     button {
         font-size: 1rem;
         margin-bottom: 1rem;
+    }
+
+    .main-container {
+        width: 90%;
     }
 }
