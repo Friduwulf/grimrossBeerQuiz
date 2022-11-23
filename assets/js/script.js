@@ -120,82 +120,82 @@ function toHighscores() {
 ////////////////////////////////
 //Array of questions.
 var questions = [
-    'What is the type of loop that continues through a block of code as long as the specified condition remains True?',
-    'In JavaScript, what element is used to store and manipulate multiple points of data?',
-    'What symbol is used to enclose an array?',
-    'What tag is used to define a hyperlink, or link to another page?',
-    'Every HTML page must include a reference to the external file sheet file inside the ___ element',
-    'What is the CSS property that offers extra information about something when you hover over an element?',
-    'What is the name given to the CSS element that always starts on a new-line and takes up the entire width available to it?',
-    'In JavaScript, what element is used to store and manipulate text usually in multiples?',
-    'What tag can be used to insert a line break or blank line in an HTML document?',
-    'What tag is used to underline a word or line of text?'
+    'Which country consumes the most beer per capita?',
+    'In which German city is the world’s biggest beer festival, Oktoberfest, traditionally celebrated?',
+    'What was the name of the first beer ever officially produced by Grimross?',
+    'Generally speaking, a session beer needs to be low in what?',
+    'What year was Grimross Brewing Corp. established?',
+    'What two characteristics of beer are hops most often given credit for?',
+    'Where does the name Grimross originate?',
+    'When you order "milk" in a brewery in the Czech Republic, what will you get?',
+    'Grimross is the first brewery in New Brunswick to do what?',
+    'Where does the beer style "Braggot" originate?'
 ];
 //Array of answers for option 1.
 var optionOne = [
-    'Conditional Loop',
-    'Recorders',
-    '()',
-    '<p>',
-    'Header',
-    'Tooltip',
-    'Margin',
-    'Variables',
-    '<br>',
-    '<s>'
+    'Germany',
+    'Munich',
+    'Maritime Pale Ale',
+    'IBU',
+    '2010',
+    'Aroma & Colour',
+    'An island in New Brunswick',
+    'A warm glass of milk mixed with beer',
+    'Sell out of province',
+    'England'
 
 ];
 //Array of answers for option 2.
 var optionTwo = [
-    'For Loop',
-    'Strings',
-    '{}',
-    '<a>',
-    'Body',
-    'Tutorial',
-    'Block-level',
-    'Arrays',
-    '<body>',
-    '<ul>'
+    'USA',
+    'Berlin',
+    'Cheval D`or',
+    'Haze',
+    '2013',
+    'Color & Body',
+    'Made it up',
+    'A beer that is fully foam',
+    'Make belgian styles',
+    'Scotland'
 ];
 //Array of answers for option 3.
 var optionThree = [
-    'While Loop',
-    'Arrays',
-    '<>',
-    '<link>',
-    '<div>',
-    'Hint',
-    'Line',
-    'Function',
-    '<tab>',
-    '<u>'
+    'Czech Republic',
+    'Brunsweig',
+    'Brunswick Pilsner',
+    'Alcohol',
+    '2015',
+    'Mouthfeel & Body',
+    'A city in Belgium',
+    'A beer dyed white',
+    'Be lisenced to produce in the basement of a house',
+    'Canada'
 ];
 //Array of answers for option 4.
 var optionFour = [
-    'Reg Loop',
-    'Variables',
-    '[]',
-    '<section>',
-    '<link>',
-    'Info Block',
-    'spacer',
-    'Strings',
-    '<blank>',
-    '<li>'
+    'United Kingdom',
+    'Amsterdam',
+    'Maritime Cream Ale',
+    'Carbonation',
+    '2016',
+    'Aroma & Bitterness',
+    'The word for "beer" in Czech',
+    'A low alcohol beer for children',
+    'Win a national beer award',
+    'Australia'
 ];
 //Array of correct option choices.
 var correctAnswerList = [
+    'three',
     'one',
+    'two',
+    'three',
     'three',
     'four',
-    'two',
-    'four',
     'one',
     'two',
-    'four',
-    'one',
-    'three'
+    'three',
+    'one'
 ];
 var currentAnswer = '';
 //Pulls questions and answers from their respective arrays and populates the quiz. Also finds the correct answer.
